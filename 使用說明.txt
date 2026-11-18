@@ -1,13 +1,5 @@
-企鵝英文單字冒險 PWA V2.0
-
-重要：請將整個資料夾內容（index.html、sw.js、manifest.webmanifest、icons 資料夾）一起上傳至 HTTPS 靜態網站。單獨傳送 HTML 給 iPhone 無法安裝 PWA。
-
-免費部署（GitHub Pages）：
-1. 在 GitHub 建立公開儲存庫。
-2. 將此資料夾內的檔案與 icons 資料夾上傳到儲存庫根目錄。
-3. Settings → Pages → Build and deployment → Deploy from a branch → main / (root) → Save。
-4. 等候網站發佈後，使用產生的 HTTPS 網址開啟。
-5. iPhone/iPad：Safari → 分享 → 加入主畫面 → 加入。第一次開啟請保持連線，待快取完成後可離線玩。
-6. Windows：使用 Chrome 或 Edge 開啟網站，可在瀏覽器選單安裝應用程式。
-
-注意：學習紀錄儲存在各裝置的瀏覽器中，不會自動同步；請使用遊戲內 JSON 匯出/匯入備份。iOS 英文語音取決於裝置內建語音。
+企鵝英文單字冒險 V3.0
+新增：企鵝養成（每回合依答對題數獲得小魚，每20條升級）、答對／答錯／結束音效、CSV 大量匯入。
+大量新增：Excel 建立三欄「英文、繁體中文、記憶提示」，另存 CSV UTF-8，於「題庫管理」選擇 CSV 匯入。
+部署：將壓縮檔解壓縮後所有檔案與 icons 資料夾，上傳原 GitHub 儲存庫根目錄，覆蓋舊檔。等待 Pages 更新，iPhone App 重新開啟。
+提醒：學習紀錄、小魚分別保存在每台裝置的瀏覽器儲存空間；原有 JSON 備份可在題庫管理匯出。
