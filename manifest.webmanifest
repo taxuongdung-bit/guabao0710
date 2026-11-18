@@ -1,0 +1,25 @@
+{
+  "name": "企鵝英文單字冒險",
+  "short_name": "企鵝單字",
+  "description": "10題一回合的企鵝英文單字離線遊戲",
+  "lang": "zh-TW",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eafaff",
+  "theme_color": "#bcefff",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
